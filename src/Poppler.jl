@@ -3,8 +3,6 @@ module Poppler
 import Base.open ## Extends open
 
 const libpoppler = "libpoppler-glib.so"
-## const libpoppler = "/nix/store/pkz6173fqdp37rb33b80pa4l34n2w6qz-poppler-glib-0.43.0/lib/$libpoppler"
-## document = open("file:///tmp/about_metadata.pdf"::FileURI)
 
 typealias FileURI ASCIIString
 
